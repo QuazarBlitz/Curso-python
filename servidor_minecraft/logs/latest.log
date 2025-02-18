@@ -1,64 +1,62 @@
-[18Feb2025 04:46:49.534] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[18Feb2025 04:46:49.538] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
-[18Feb2025 04:46:50.408] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[18Feb2025 04:46:50.463] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Curso-python/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[18Feb2025 04:46:50.752] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Curso-python/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[18Feb2025 04:46:50.753] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Curso-python/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[18Feb2025 04:46:50.754] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Curso-python/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[18Feb2025 04:46:50.755] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Curso-python/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[18Feb2025 04:46:51.405] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 29 dependencies adding them to mods collection
-[18Feb2025 04:46:51.767] [main/INFO] [org.groovymc.gml.mappings.MappingsProvider/]: Starting runtime mappings setup...
-[18Feb2025 04:46:51.791] [main/INFO] [org.groovymc.gml.internal.locator.ModLocatorInjector/]: Injecting ScriptModLocator candidates...
-[18Feb2025 04:46:51.801] [main/INFO] [org.groovymc.gml.scriptmods.ScriptModLocator/]: Injected Jimfs file system
-[18Feb2025 04:46:51.808] [main/INFO] [org.groovymc.gml.scriptmods.ScriptModLocator/]: Skipped loading script mods from directory /workspaces/Curso-python/servidor_minecraft/mods/scripts as it did not exist.
-[18Feb2025 04:46:51.814] [main/INFO] [org.groovymc.gml.internal.locator.ModLocatorInjector/]: Injected ScriptModLocator mod candidates. Found 0 valid mod candidates and 0 broken mod files.
-[18Feb2025 04:46:54.303] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[18Feb2025 04:46:54.439] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[18Feb2025 04:46:54.945] [GML Mappings Thread/INFO] [org.groovymc.gml.mappings.MappingsProvider/]: Loaded runtime mappings in 2952ms
-[18Feb2025 04:46:54.947] [GML Mappings Thread/INFO] [org.groovymc.gml.mappings.MappingsProvider/]: Finished runtime mappings setup.
-[18Feb2025 04:46:55.647] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
-[18Feb2025 04:47:02.143] [main/INFO] [org.groovymc.gml.internal.ModExtensionLoader/]: Skipping extension class org.groovymc.cgl.api.extension.client.MinecraftExtensions: it requires dist CLIENT, but we're running on DEDICATED_SERVER
-[18Feb2025 04:47:02.330] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
-[18Feb2025 04:47:02.344] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
-[18Feb2025 04:47:02.968] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[18Feb2025 04:47:02.975] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[18Feb2025 04:47:03.174] [modloading-worker-0/INFO] [gml/]: Initialised GML mod. Version: 4.0.9
-[18Feb2025 04:47:03.274] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 7.90.
-[18Feb2025 04:47:06.107] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
-[18Feb2025 04:47:06.389] [main/INFO] [journeymap/]: Initializing Packet Registries
-[18Feb2025 04:47:06.418] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.3 Target: null
-[18Feb2025 04:47:06.418] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_no_enchantblock] Starting version check at https://api.modrinth.com/updates/wP2OLp8w/forge_updates.json
-[18Feb2025 04:47:06.420] [main/INFO] [ribbits/]: Registering Ribbit umbrella types...
-[18Feb2025 04:47:06.420] [main/INFO] [ribbits/]: Registering Ribbit professions...
-[18Feb2025 04:47:06.421] [main/INFO] [ribbits/]: Registering Ribbit instruments...
-[18Feb2025 04:47:06.423] [main/INFO] [ribbits/]: Registering Ribbit data serializers...
-[18Feb2025 04:47:06.814] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_no_enchantblock] Found status: OUTDATED Current: 2.1.1 Target: 2.1.1+mod
-[18Feb2025 04:47:06.815] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[18Feb2025 04:47:06.925] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.29
-[18Feb2025 04:47:06.925] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_withering_heights] Starting version check at https://api.modrinth.com/updates/NCPLOWlF/forge_updates.json
-[18Feb2025 04:47:07.034] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_withering_heights] Found status: BETA Current: 1-alpha-1 Target: alpha-1+mod
-[18Feb2025 04:47:07.035] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gml] Starting version check at https://maven.moddinginquisition.org/releases/org/groovymc/gml/gml/forge-promotions.json
-[18Feb2025 04:47:07.465] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gml] Found status: BETA Current: 4.0.9 Target: null
-[18Feb2025 04:47:07.466] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_tidal_towns] Starting version check at https://api.modrinth.com/updates/EEIwvQVo/forge_updates.json
-[18Feb2025 04:47:07.572] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_tidal_towns] Found status: OUTDATED Current: 1.3.4 Target: 1.3.4+mod
-[18Feb2025 04:47:07.572] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://update.maxhenkel.de/forge/gravestone
-[18Feb2025 04:47:08.088] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[18Feb2025 04:47:08.097] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: AHEAD Current: 1.20.1-1.0.24 Target: null
-[18Feb2025 04:47:08.099] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Starting version check at https://raw.githubusercontent.com/DmitryLovin/pluginUpdate/master/invupdate.json
-[18Feb2025 04:47:08.133] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Found status: UP_TO_DATE Current: 3.4.26 Target: null
-[18Feb2025 04:47:09.178] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Curso-python/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23193!/assets/.mcassetsroot' uses unexpected schema
-[18Feb2025 04:47:09.178] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Curso-python/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23193!/data/.mcassetsroot' uses unexpected schema
-[18Feb2025 04:47:10.909] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
-[18Feb2025 04:47:10.977] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag wither_rework:wither_target_blacklist as it is missing following references: #minecraft:aquatic (from withering-heights-alpha-1.jar), 
+[18Feb2025 15:46:34.352] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[18Feb2025 15:46:34.356] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
+[18Feb2025 15:46:35.207] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[18Feb2025 15:46:35.264] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Curso-python/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[18Feb2025 15:46:35.568] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Curso-python/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[18Feb2025 15:46:35.570] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Curso-python/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[18Feb2025 15:46:35.571] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Curso-python/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[18Feb2025 15:46:35.573] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Curso-python/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[18Feb2025 15:46:36.284] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 29 dependencies adding them to mods collection
+[18Feb2025 15:46:36.650] [main/INFO] [org.groovymc.gml.mappings.MappingsProvider/]: Starting runtime mappings setup...
+[18Feb2025 15:46:36.673] [main/INFO] [org.groovymc.gml.internal.locator.ModLocatorInjector/]: Injecting ScriptModLocator candidates...
+[18Feb2025 15:46:36.684] [main/INFO] [org.groovymc.gml.scriptmods.ScriptModLocator/]: Injected Jimfs file system
+[18Feb2025 15:46:36.691] [main/INFO] [org.groovymc.gml.scriptmods.ScriptModLocator/]: Skipped loading script mods from directory /workspaces/Curso-python/servidor_minecraft/mods/scripts as it did not exist.
+[18Feb2025 15:46:36.698] [main/INFO] [org.groovymc.gml.internal.locator.ModLocatorInjector/]: Injected ScriptModLocator mod candidates. Found 0 valid mod candidates and 0 broken mod files.
+[18Feb2025 15:46:39.167] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[18Feb2025 15:46:39.311] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[18Feb2025 15:46:40.046] [GML Mappings Thread/INFO] [org.groovymc.gml.mappings.MappingsProvider/]: Loaded runtime mappings in 3100ms
+[18Feb2025 15:46:40.048] [GML Mappings Thread/INFO] [org.groovymc.gml.mappings.MappingsProvider/]: Finished runtime mappings setup.
+[18Feb2025 15:46:40.705] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
+[18Feb2025 15:46:46.898] [main/INFO] [org.groovymc.gml.internal.ModExtensionLoader/]: Skipping extension class org.groovymc.cgl.api.extension.client.MinecraftExtensions: it requires dist CLIENT, but we're running on DEDICATED_SERVER
+[18Feb2025 15:46:47.082] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
+[18Feb2025 15:46:47.102] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
+[18Feb2025 15:46:47.581] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[18Feb2025 15:46:47.582] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[18Feb2025 15:46:47.692] [modloading-worker-0/INFO] [gml/]: Initialised GML mod. Version: 4.0.9
+[18Feb2025 15:46:47.776] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 7.90.
+[18Feb2025 15:46:49.965] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[18Feb2025 15:46:50.166] [main/INFO] [journeymap/]: Initializing Packet Registries
+[18Feb2025 15:46:50.185] [main/INFO] [ribbits/]: Registering Ribbit umbrella types...
+[18Feb2025 15:46:50.185] [main/INFO] [ribbits/]: Registering Ribbit professions...
+[18Feb2025 15:46:50.185] [main/INFO] [ribbits/]: Registering Ribbit instruments...
+[18Feb2025 15:46:50.187] [main/INFO] [ribbits/]: Registering Ribbit data serializers...
+[18Feb2025 15:46:50.279] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.3 Target: null
+[18Feb2025 15:46:50.279] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_no_enchantblock] Starting version check at https://api.modrinth.com/updates/wP2OLp8w/forge_updates.json
+[18Feb2025 15:46:50.630] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_no_enchantblock] Found status: OUTDATED Current: 2.1.1 Target: 2.1.1+mod
+[18Feb2025 15:46:50.631] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[18Feb2025 15:46:50.787] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.29
+[18Feb2025 15:46:50.788] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_withering_heights] Starting version check at https://api.modrinth.com/updates/NCPLOWlF/forge_updates.json
+[18Feb2025 15:46:51.062] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_withering_heights] Found status: BETA Current: 1-alpha-1 Target: alpha-1+mod
+[18Feb2025 15:46:51.063] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gml] Starting version check at https://maven.moddinginquisition.org/releases/org/groovymc/gml/gml/forge-promotions.json
+[18Feb2025 15:46:51.436] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gml] Found status: BETA Current: 4.0.9 Target: null
+[18Feb2025 15:46:51.437] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_tidal_towns] Starting version check at https://api.modrinth.com/updates/EEIwvQVo/forge_updates.json
+[18Feb2025 15:46:51.536] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_tidal_towns] Found status: OUTDATED Current: 1.3.4 Target: 1.3.4+mod
+[18Feb2025 15:46:51.536] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://update.maxhenkel.de/forge/gravestone
+[18Feb2025 15:46:51.845] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18Feb2025 15:46:52.026] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: AHEAD Current: 1.20.1-1.0.24 Target: null
+[18Feb2025 15:46:52.027] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Starting version check at https://raw.githubusercontent.com/DmitryLovin/pluginUpdate/master/invupdate.json
+[18Feb2025 15:46:52.058] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Found status: UP_TO_DATE Current: 3.4.26 Target: null
+[18Feb2025 15:46:53.022] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Curso-python/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23193!/assets/.mcassetsroot' uses unexpected schema
+[18Feb2025 15:46:53.023] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Curso-python/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23193!/data/.mcassetsroot' uses unexpected schema
+[18Feb2025 15:46:54.555] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[18Feb2025 15:46:54.617] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag wither_rework:wither_target_blacklist as it is missing following references: #minecraft:aquatic (from withering-heights-alpha-1.jar), 
 	#minecraft:wither_friends (from withering-heights-alpha-1.jar)
-[18Feb2025 04:47:11.070] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag enlightened_end:cerulean_stalk_blocks as it is missing following references: enlightened_end:cerulean_stalk_block (from enlightend-5.0.14-1.20.1.jar), 
-	enlightened_end:stripped_cerulean_stalk_block (from enlightend-5.0.14-1.20.1.jar)
-[18Feb2025 04:47:11.075] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag fabric:mineable/needs_tool_level_3 as it is missing following references: enlightened_end:enduring_waste (from enlightend-5.0.14-1.20.1.jar), 
+[18Feb2025 15:46:54.670] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag fabric:mineable/needs_tool_level_3 as it is missing following references: enlightened_end:enduring_waste (from enlightend-5.0.14-1.20.1.jar), 
 	enlightened_end:voidsteel_block (from enlightend-5.0.14-1.20.1.jar), 
 	enlightened_end:adamantite_plate_block (from enlightend-5.0.14-1.20.1.jar), 
 	enlightened_end:adamantite_glass (from enlightend-5.0.14-1.20.1.jar), 
 	enlightened_end:adamantite_glass_pane (from enlightend-5.0.14-1.20.1.jar)
-[18Feb2025 04:47:11.076] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag noenchantblock:modded/biomes_o_plenty as it is missing following references: biomesoplenty:flesh_tendons (from no-enchant-block-2.1.1.jar), 
+[18Feb2025 15:46:54.671] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag noenchantblock:modded/biomes_o_plenty as it is missing following references: biomesoplenty:flesh_tendons (from no-enchant-block-2.1.1.jar), 
 	biomesoplenty:eyebulb (from no-enchant-block-2.1.1.jar), 
 	biomesoplenty:pus_bubble (from no-enchant-block-2.1.1.jar), 
 	biomesoplenty:brimstone_fumarole (from no-enchant-block-2.1.1.jar), 
@@ -87,7 +85,7 @@
 	biomesoplenty:tiny_cactus (from no-enchant-block-2.1.1.jar), 
 	biomesoplenty:bramble (from no-enchant-block-2.1.1.jar), 
 	biomesoplenty:bramble_leaves (from no-enchant-block-2.1.1.jar)
-[18Feb2025 04:47:11.077] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag fabric:mineable/needs_tool_level_0 as it is missing following references: enlightened_end:chiseled_purpur (from enlightend-5.0.14-1.20.1.jar), 
+[18Feb2025 15:46:54.672] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag fabric:mineable/needs_tool_level_0 as it is missing following references: enlightened_end:chiseled_purpur (from enlightend-5.0.14-1.20.1.jar), 
 	enlightened_end:purpur_lamp (from enlightend-5.0.14-1.20.1.jar), 
 	enlightened_end:infested_end_stone (from enlightend-5.0.14-1.20.1.jar), 
 	enlightened_end:congealed_eylium (from enlightend-5.0.14-1.20.1.jar), 
@@ -108,7 +106,7 @@
 	enlightened_end:chiseled_nullstone (from enlightend-5.0.14-1.20.1.jar), 
 	enlightened_end:nullstone_lamp (from enlightend-5.0.14-1.20.1.jar), 
 	enlightened_end:voikrust_lamp (from enlightend-5.0.14-1.20.1.jar)
-[18Feb2025 04:47:11.080] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag fabric:mineable/needs_tool_level_2 as it is missing following references: enlightened_end:waxed_bismuth_stairs (from enlightend-5.0.14-1.20.1.jar), 
+[18Feb2025 15:46:54.673] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag fabric:mineable/needs_tool_level_2 as it is missing following references: enlightened_end:waxed_bismuth_stairs (from enlightend-5.0.14-1.20.1.jar), 
 	enlightened_end:waxed_bismuth_slab (from enlightend-5.0.14-1.20.1.jar), 
 	enlightened_end:infernal_bismuth_sheets (from enlightend-5.0.14-1.20.1.jar), 
 	enlightened_end:infernal_bismuth_sheet_stairs (from enlightend-5.0.14-1.20.1.jar), 
@@ -138,7 +136,7 @@
 	enlightened_end:repulsium_cluster (from enlightend-5.0.14-1.20.1.jar), 
 	enlightened_end:atractonite_block (from enlightend-5.0.14-1.20.1.jar), 
 	enlightened_end:atractonite_cluster (from enlightend-5.0.14-1.20.1.jar)
-[18Feb2025 04:47:11.086] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag fabric:mineable/needs_tool_level_1 as it is missing following references: enlightened_end:malachite_pillar (from enlightend-5.0.14-1.20.1.jar), 
+[18Feb2025 15:46:54.674] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag fabric:mineable/needs_tool_level_1 as it is missing following references: enlightened_end:malachite_pillar (from enlightend-5.0.14-1.20.1.jar), 
 	enlightened_end:smooth_malachite (from enlightend-5.0.14-1.20.1.jar), 
 	enlightened_end:smooth_malachite_stairs (from enlightend-5.0.14-1.20.1.jar), 
 	enlightened_end:smooth_malachite_slab (from enlightend-5.0.14-1.20.1.jar), 
@@ -176,11 +174,13 @@
 	enlightened_end:ennegel_hang_generate (from enlightend-5.0.14-1.20.1.jar), 
 	enlightened_end:enderneath_replace (from enlightend-5.0.14-1.20.1.jar), 
 	enlightened_end:enderneath_replace_chance (from enlightend-5.0.14-1.20.1.jar)
-[18Feb2025 04:47:11.086] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag noenchantblock:modded/amendments as it is missing following references: #amendments:ceiling_banners (from no-enchant-block-2.1.1.jar), 
+[18Feb2025 15:46:54.675] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag noenchantblock:modded/amendments as it is missing following references: #amendments:ceiling_banners (from no-enchant-block-2.1.1.jar), 
 	amendments:wall_lantern (from no-enchant-block-2.1.1.jar), 
 	amendments:double_cake (from no-enchant-block-2.1.1.jar), 
 	amendments:skull_pile (from no-enchant-block-2.1.1.jar)
-[18Feb2025 04:47:11.088] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag noenchantblock:modded/quark as it is missing following references: #quark:ladders (from no-enchant-block-2.1.1.jar), 
+[18Feb2025 15:46:54.678] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag enlightened_end:cerulean_stalk_blocks as it is missing following references: enlightened_end:cerulean_stalk_block (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:stripped_cerulean_stalk_block (from enlightend-5.0.14-1.20.1.jar)
+[18Feb2025 15:46:54.680] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag noenchantblock:modded/quark as it is missing following references: #quark:ladders (from no-enchant-block-2.1.1.jar), 
 	#quark:posts (from no-enchant-block-2.1.1.jar), 
 	#quark:hedges (from no-enchant-block-2.1.1.jar), 
 	#quark:stools (from no-enchant-block-2.1.1.jar), 
@@ -262,8 +262,8 @@
 	quark:yellow_blossom_leaf_carpet (from no-enchant-block-2.1.1.jar), 
 	quark:red_blossom_leaf_carpet (from no-enchant-block-2.1.1.jar), 
 	quark:ancient_leaf_carpet (from no-enchant-block-2.1.1.jar)
-[18Feb2025 04:47:11.089] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag noenchantblock:modded/_general_tags as it is missing following references: #forge:ropes (from no-enchant-block-2.1.1.jar)
-[18Feb2025 04:47:11.089] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag noenchantblock:modded/supplementaries as it is missing following references: #supplementaries:posts (from no-enchant-block-2.1.1.jar), 
+[18Feb2025 15:46:54.681] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag noenchantblock:modded/_general_tags as it is missing following references: #forge:ropes (from no-enchant-block-2.1.1.jar)
+[18Feb2025 15:46:54.682] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag noenchantblock:modded/supplementaries as it is missing following references: #supplementaries:posts (from no-enchant-block-2.1.1.jar), 
 	#supplementaries:flags (from no-enchant-block-2.1.1.jar), 
 	#supplementaries:presents (from no-enchant-block-2.1.1.jar), 
 	#supplementaries:trapped_presents (from no-enchant-block-2.1.1.jar), 
@@ -299,7 +299,7 @@
 	supplementaries:urn (from no-enchant-block-2.1.1.jar), 
 	supplementaries:bubble_block (from no-enchant-block-2.1.1.jar), 
 	supplementaries:enderman_head (from no-enchant-block-2.1.1.jar)
-[18Feb2025 04:47:11.089] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag noenchantblock:modded/supplementaries_squared as it is missing following references: #suppsquared:plaques (from no-enchant-block-2.1.1.jar), 
+[18Feb2025 15:46:54.683] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag noenchantblock:modded/supplementaries_squared as it is missing following references: #suppsquared:plaques (from no-enchant-block-2.1.1.jar), 
 	#suppsquared:item_shelves (from no-enchant-block-2.1.1.jar), 
 	suppsquared:metal_frame (from no-enchant-block-2.1.1.jar), 
 	suppsquared:metal_brace (from no-enchant-block-2.1.1.jar), 
@@ -307,7 +307,7 @@
 	suppsquared:copper_lantern (from no-enchant-block-2.1.1.jar), 
 	suppsquared:brass_lantern (from no-enchant-block-2.1.1.jar), 
 	suppsquared:crimson_lantern (from no-enchant-block-2.1.1.jar)
-[18Feb2025 04:47:11.802] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:enlightened_end:entities/sacrifice_statue_gift
+[18Feb2025 15:46:55.411] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:enlightened_end:entities/sacrifice_statue_gift
 com.google.gson.JsonSyntaxException: Unknown enchantment 'enlightened_end:frost_aspect'
 	at net.minecraft.world.level.storage.loot.functions.EnchantRandomlyFunction$Serializer.m_80465_(EnchantRandomlyFunction.java:137) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -369,7 +369,7 @@ com.google.gson.JsonSyntaxException: Unknown enchantment 'enlightened_end:frost_
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[18Feb2025 04:47:12.042] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe famersdelight:adamantite_knife_smithing
+[18Feb2025 15:46:55.605] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe famersdelight:adamantite_knife_smithing
 com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
 	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -398,8 +398,8 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecra
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[18Feb2025 04:47:12.115] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 11 recipes
-[18Feb2025 04:47:12.119] [main/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function wither_rework:wither/attack/0/projectile/rotation
+[18Feb2025 15:46:55.662] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 11 recipes
+[18Feb2025 15:46:55.663] [main/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function wither_rework:wither/attack/0/projectile/rotation
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Incorrect argument for command at position 56: ...oat 1 run <--[HERE]
 	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -415,7 +415,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2:
 	at net.minecraft.server.ServerFunctionLibrary.m_214320_(ServerFunctionLibrary.java:83) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 6 more
-[18Feb2025 04:47:12.137] [main/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function wither_rework:wither/attack/2/phase_2/projectile/impact
+[18Feb2025 15:46:55.668] [main/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function wither_rework:wither/attack/2/phase_2/projectile/impact
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Unknown selector type '@n' at position 58: ...osion by @<--[HERE]
 	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -431,7 +431,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2:
 	at net.minecraft.server.ServerFunctionLibrary.m_214320_(ServerFunctionLibrary.java:83) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 6 more
-[18Feb2025 04:47:12.145] [main/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function wither_rework:wither/attack/2/phase_2/projectile/effect/trajectory
+[18Feb2025 15:46:55.673] [main/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function wither_rework:wither/attack/2/phase_2/projectile/effect/trajectory
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Expected ' ' at position 30: ...transition<--[HERE]
 	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -447,70 +447,50 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at net.minecraft.server.ServerFunctionLibrary.m_214320_(ServerFunctionLibrary.java:83) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 6 more
-[18Feb2025 04:47:12.330] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1562 advancements
-[18Feb2025 04:47:12.360] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
-[18Feb2025 04:47:12.370] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
-[18Feb2025 04:47:13.163] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[18Feb2025 04:47:13.164] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[18Feb2025 04:47:13.164] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[18Feb2025 04:47:13.165] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[18Feb2025 04:47:13.275] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[18Feb2025 04:47:13.298] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[18Feb2025 04:47:13.406] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[18Feb2025 04:47:13.407] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[18Feb2025 04:47:13.407] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[18Feb2025 04:47:13.407] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[18Feb2025 04:47:13.420] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[18Feb2025 04:47:13.422] [Thread-2/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[18Feb2025 04:47:13.505] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[18Feb2025 04:47:16.284] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[18Feb2025 04:47:22.594] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Feb2025 04:47:22.596] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Feb2025 04:47:22.597] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Feb2025 04:47:22.598] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Feb2025 04:47:22.600] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Feb2025 04:47:22.601] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Feb2025 04:47:22.602] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Feb2025 04:47:22.604] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Feb2025 04:47:22.605] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Feb2025 04:47:22.606] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Feb2025 04:47:22.607] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Feb2025 04:47:22.608] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Feb2025 04:47:22.610] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Feb2025 04:47:22.785] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Feb2025 04:47:23.285] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 32%
-[18Feb2025 04:47:23.857] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 7573 ms
-[18Feb2025 04:47:23.858] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (10.441s)! For help, type "help"
-[18Feb2025 04:47:23.886] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[18Feb2025 04:47:32.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
-[18Feb2025 04:47:32.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: awa<--[HERE]
-[18Feb2025 04:48:24.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
-[18Feb2025 04:48:24.029] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: gouagogou<--[HERE]
-[18Feb2025 04:51:00.016] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
-[18Feb2025 04:51:00.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: papu<--[HERE]
-[18Feb2025 04:51:56.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
-[18Feb2025 04:51:56.282] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ts<--[HERE]
-[18Feb2025 04:52:19.800] [ForkJoinPool.commonPool-worker-3/WARN] [SkinRestorer/]: Failed to fetch skin: not found
-[18Feb2025 04:52:19.859] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Okarun_KT[/127.41.76.219:59249] logged in with entity id 627 at (22.5, 70.0, 29.5)
-[18Feb2025 04:52:19.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun_KT joined the game
-[18Feb2025 04:52:23.433] [Server thread/INFO] [do_a_barrel_roll/]: Client of Okarun_KT accepted server config.
-[18Feb2025 04:55:24.680] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun_KT has made the advancement [Sweet Dreams]
-[18Feb2025 04:57:44.995] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun_KT has made the advancement [Ice Bucket Challenge]
-[18Feb2025 05:01:55.325] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun_KT has made the advancement [Stone Age]
-[18Feb2025 05:03:39.095] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun_KT has made the advancement [Getting an Upgrade]
-[18Feb2025 05:10:15.134] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun_KT has made the advancement [Monster Hunter]
-[18Feb2025 05:28:23.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun_KT has made the advancement [Acquire Hardware]
-[18Feb2025 05:31:32.022] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Okarun_KT lost connection: Disconnected
-[18Feb2025 05:31:32.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun_KT left the game
-[18Feb2025 05:31:45.873] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[18Feb2025 05:31:45.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[18Feb2025 05:31:45.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[18Feb2025 05:31:45.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[18Feb2025 05:31:46.515] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[18Feb2025 05:31:47.202] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[18Feb2025 05:31:47.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[18Feb2025 05:31:47.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[18Feb2025 05:31:47.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18Feb2025 05:31:47.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18Feb2025 05:31:47.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[18Feb2025 05:31:47.236] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[18Feb2025 15:46:55.809] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1562 advancements
+[18Feb2025 15:46:55.829] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
+[18Feb2025 15:46:55.835] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[18Feb2025 15:46:56.665] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[18Feb2025 15:46:56.665] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[18Feb2025 15:46:56.666] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[18Feb2025 15:46:56.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[18Feb2025 15:46:56.796] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[18Feb2025 15:46:56.826] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[18Feb2025 15:46:56.925] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18Feb2025 15:46:56.925] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[18Feb2025 15:46:56.926] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18Feb2025 15:46:56.926] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[18Feb2025 15:46:56.944] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[18Feb2025 15:46:56.945] [Thread-2/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[18Feb2025 15:46:56.946] [Thread-2/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[18Feb2025 15:46:57.067] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[18Feb2025 15:47:00.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[18Feb2025 15:47:08.748] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Feb2025 15:47:08.813] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Feb2025 15:47:08.847] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Feb2025 15:47:08.864] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Feb2025 15:47:08.881] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Feb2025 15:47:08.890] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Feb2025 15:47:08.905] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Feb2025 15:47:08.906] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Feb2025 15:47:08.907] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Feb2025 15:47:08.908] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Feb2025 15:47:08.910] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Feb2025 15:47:08.911] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Feb2025 15:47:08.911] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Feb2025 15:47:08.912] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Feb2025 15:47:08.913] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Feb2025 15:47:08.913] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Feb2025 15:47:08.914] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Feb2025 15:47:08.945] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Feb2025 15:47:09.445] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
+[18Feb2025 15:47:09.945] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 64%
+[18Feb2025 15:47:10.323] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 9878 ms
+[18Feb2025 15:47:10.324] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (13.383s)! For help, type "help"
+[18Feb2025 15:47:10.355] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[18Feb2025 15:49:28.691] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[18Feb2025 15:49:28.692] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: awo<--[HERE]
+[18Feb2025 15:50:58.111] [ForkJoinPool.commonPool-worker-3/WARN] [SkinRestorer/]: Failed to fetch skin: not found
+[18Feb2025 15:50:58.211] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Okarun_KT[/127.41.76.219:44283] logged in with entity id 565 at (4.586818102586613, 63.0625, 74.77091880500117)
+[18Feb2025 15:50:58.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun_KT joined the game
+[18Feb2025 15:51:03.174] [Server thread/INFO] [do_a_barrel_roll/]: Client of Okarun_KT accepted server config.
