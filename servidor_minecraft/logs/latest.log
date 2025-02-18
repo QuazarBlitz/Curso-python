@@ -496,3 +496,32 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [18Feb2025 15:51:03.174] [Server thread/INFO] [do_a_barrel_roll/]: Client of Okarun_KT accepted server config.
 [18Feb2025 16:05:09.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun_KT has made the advancement [Alex's Mobs]
 [18Feb2025 16:16:37.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun_KT has made the advancement [Not Today, Thank You]
+[18Feb2025 16:17:00.802] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Okarun_KT lost connection: Disconnected
+[18Feb2025 16:17:00.802] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun_KT left the game
+[18Feb2025 16:17:00.853] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[18Feb2025 16:17:22.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[18Feb2025 16:17:22.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: asa<--[HERE]
+[18Feb2025 16:18:24.735] [ForkJoinPool.commonPool-worker-5/WARN] [SkinRestorer/]: Failed to fetch skin: not found
+[18Feb2025 16:18:24.752] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Okarun_KT[/127.41.76.219:48049] logged in with entity id 4734 at (12.158795745128101, 63.0, 84.29501673303876)
+[18Feb2025 16:18:24.761] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun_KT joined the game
+[18Feb2025 16:18:27.737] [Server thread/INFO] [do_a_barrel_roll/]: Client of Okarun_KT accepted server config.
+[18Feb2025 16:19:09.849] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Okarun_KT lost connection: Timed out
+[18Feb2025 16:19:09.849] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun_KT left the game
+[18Feb2025 16:20:39.883] [ForkJoinPool.commonPool-worker-7/WARN] [SkinRestorer/]: Failed to fetch skin: not found
+[18Feb2025 16:20:39.900] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Okarun_KT[/127.41.76.219:47637] logged in with entity id 4874 at (11.745349203031706, 63.0, 80.27221107238294)
+[18Feb2025 16:20:39.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun_KT joined the game
+[18Feb2025 16:20:41.562] [Server thread/INFO] [do_a_barrel_roll/]: Client of Okarun_KT accepted server config.
+[18Feb2025 16:26:01.354] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Okarun_KT lost connection: Disconnected
+[18Feb2025 16:26:01.355] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun_KT left the game
+[18Feb2025 16:26:32.741] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[18Feb2025 16:26:32.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[18Feb2025 16:26:32.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[18Feb2025 16:26:32.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[18Feb2025 16:26:33.282] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18Feb2025 16:26:33.981] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[18Feb2025 16:26:33.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[18Feb2025 16:26:33.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18Feb2025 16:26:33.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18Feb2025 16:26:33.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18Feb2025 16:26:33.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[18Feb2025 16:26:34.012] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
