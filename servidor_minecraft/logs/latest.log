@@ -499,3 +499,18 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [18Feb2025 05:01:55.325] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun_KT has made the advancement [Stone Age]
 [18Feb2025 05:03:39.095] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun_KT has made the advancement [Getting an Upgrade]
 [18Feb2025 05:10:15.134] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun_KT has made the advancement [Monster Hunter]
+[18Feb2025 05:28:23.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun_KT has made the advancement [Acquire Hardware]
+[18Feb2025 05:31:32.022] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Okarun_KT lost connection: Disconnected
+[18Feb2025 05:31:32.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun_KT left the game
+[18Feb2025 05:31:45.873] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[18Feb2025 05:31:45.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[18Feb2025 05:31:45.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[18Feb2025 05:31:45.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[18Feb2025 05:31:46.515] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18Feb2025 05:31:47.202] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[18Feb2025 05:31:47.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[18Feb2025 05:31:47.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18Feb2025 05:31:47.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18Feb2025 05:31:47.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18Feb2025 05:31:47.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[18Feb2025 05:31:47.236] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
