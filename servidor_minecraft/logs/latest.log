@@ -495,3 +495,4 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [18Feb2025 15:50:58.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun_KT joined the game
 [18Feb2025 15:51:03.174] [Server thread/INFO] [do_a_barrel_roll/]: Client of Okarun_KT accepted server config.
 [18Feb2025 16:05:09.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun_KT has made the advancement [Alex's Mobs]
+[18Feb2025 16:16:37.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun_KT has made the advancement [Not Today, Thank You]
