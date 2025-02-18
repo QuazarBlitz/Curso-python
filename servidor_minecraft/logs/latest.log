@@ -498,3 +498,4 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [18Feb2025 04:57:44.995] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun_KT has made the advancement [Ice Bucket Challenge]
 [18Feb2025 05:01:55.325] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun_KT has made the advancement [Stone Age]
 [18Feb2025 05:03:39.095] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun_KT has made the advancement [Getting an Upgrade]
+[18Feb2025 05:10:15.134] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun_KT has made the advancement [Monster Hunter]
