@@ -35,7 +35,8 @@
       "minecraft:forest": "2025-02-21 06:29:59 +0000",
       "minecraft:windswept_forest": "2025-02-21 06:19:59 +0000",
       "minecraft:jungle": "2025-02-21 06:32:25 +0000",
-      "minecraft:old_growth_birch_forest": "2025-02-21 05:58:01 +0000"
+      "minecraft:old_growth_birch_forest": "2025-02-21 05:58:01 +0000",
+      "minecraft:plains": "2025-02-21 07:40:20 +0000"
     },
     "done": false
   },
@@ -539,6 +540,7 @@
       "minecraft:skeleton": "2025-02-18 05:15:45 +0000",
       "minecraft:creeper": "2025-02-21 06:26:27 +0000",
       "minecraft:witch": "2025-02-21 07:11:53 +0000",
+      "minecraft:husk": "2025-02-21 07:28:50 +0000",
       "minecraft:zombie": "2025-02-18 05:10:15 +0000"
     },
     "done": false
@@ -849,6 +851,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2025-02-21 07:31:22 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/light_gray_concrete_powder": {
     "criteria": {
       "has_sand": "2025-02-21 06:33:48 +0000"
@@ -1089,6 +1097,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2025-02-21 07:44:35 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/white_stained_glass": {
     "criteria": {
       "has_glass": "2025-02-21 06:39:27 +0000"
@@ -1212,6 +1226,12 @@
   "minecraft:recipes/building_blocks/magenta_concrete_powder": {
     "criteria": {
       "has_sand": "2025-02-21 06:33:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+    "criteria": {
+      "has_sugar_cane": "2025-02-21 07:44:35 +0000"
     },
     "done": true
   },

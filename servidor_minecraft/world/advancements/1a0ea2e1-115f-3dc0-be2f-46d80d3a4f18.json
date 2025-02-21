@@ -622,7 +622,8 @@
       "minecraft:forest": "2025-02-21 06:30:16 +0000",
       "minecraft:windswept_forest": "2025-02-21 06:29:25 +0000",
       "minecraft:jungle": "2025-02-21 06:32:58 +0000",
-      "minecraft:old_growth_birch_forest": "2025-02-21 05:58:14 +0000"
+      "minecraft:old_growth_birch_forest": "2025-02-21 05:58:14 +0000",
+      "minecraft:plains": "2025-02-21 07:40:27 +0000"
     },
     "done": false
   },
@@ -677,6 +678,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "mutton": "2025-02-21 06:36:32 +0000",
+      "rotten_flesh": "2025-02-21 07:42:44 +0000",
       "cooked_salmon": "2025-02-21 05:47:18 +0000"
     },
     "done": false
