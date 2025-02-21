@@ -512,3 +512,13 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [21Feb2025 07:05:28.712] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: s<--[HERE]
 [21Feb2025 07:15:46.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun_KT has made the advancement [Ant-Agonizer]
 [21Feb2025 07:18:01.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun_KT has made the advancement [Ant Farm]
+[21Feb2025 07:27:38.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun_KT was slain by Husk
+[21Feb2025 07:27:41.780] [Server thread/INFO] [do_a_barrel_roll/]: Client of Okarun_KT accepted server config.
+[21Feb2025 07:27:51.154] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun_KT was slain by Husk
+[21Feb2025 07:27:53.132] [Server thread/INFO] [do_a_barrel_roll/]: Client of Okarun_KT accepted server config.
+[21Feb2025 07:28:01.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NZerefDragneel was slain by Husk
+[21Feb2025 07:28:13.141] [Server thread/INFO] [do_a_barrel_roll/]: Client of NZerefDragneel accepted server config.
+[21Feb2025 07:28:14.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun_KT was slain by Husk
+[21Feb2025 07:28:16.090] [Server thread/INFO] [do_a_barrel_roll/]: Client of Okarun_KT accepted server config.
+[21Feb2025 07:28:29.554] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun_KT was slain by Husk
+[21Feb2025 07:28:31.663] [Server thread/INFO] [do_a_barrel_roll/]: Client of Okarun_KT accepted server config.
