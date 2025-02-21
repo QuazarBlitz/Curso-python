@@ -500,3 +500,8 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [21Feb2025 05:44:26.870] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NZerefDragneel joined the game
 [21Feb2025 05:44:33.672] [Server thread/INFO] [do_a_barrel_roll/]: Client of NZerefDragneel accepted server config.
 [21Feb2025 05:46:51.105] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NZerefDragneel has made the advancement [Alex's Mobs]
+[21Feb2025 05:50:21.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NZerefDragneel has made the advancement [Sweet Dreams]
+[21Feb2025 05:55:50.855] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NZerefDragneel has made the advancement [Getting an Upgrade]
+[21Feb2025 06:02:12.674] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NZerefDragneel has made the advancement [Monster Hunter]
+[21Feb2025 06:02:39.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NZerefDragneel was shot by Skeleton
+[21Feb2025 06:03:02.684] [Server thread/INFO] [do_a_barrel_roll/]: Client of NZerefDragneel accepted server config.

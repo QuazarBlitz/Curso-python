@@ -26,7 +26,9 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:birch_forest": "2025-02-18 05:00:17 +0000",
-      "minecraft:swamp": "2025-02-18 01:23:43 +0000"
+      "minecraft:dark_forest": "2025-02-21 06:00:03 +0000",
+      "minecraft:swamp": "2025-02-18 01:23:43 +0000",
+      "minecraft:old_growth_birch_forest": "2025-02-21 05:58:01 +0000"
     },
     "done": false
   },
@@ -519,6 +521,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_beef": "2025-02-18 05:09:43 +0000",
+      "cooked_cod": "2025-02-21 06:03:20 +0000",
       "cooked_salmon": "2025-02-18 16:14:05 +0000"
     },
     "done": false
