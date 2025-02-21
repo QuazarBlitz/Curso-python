@@ -506,3 +506,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [21Feb2025 06:02:39.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NZerefDragneel was shot by Skeleton
 [21Feb2025 06:03:02.684] [Server thread/INFO] [do_a_barrel_roll/]: Client of NZerefDragneel accepted server config.
 [21Feb2025 06:16:49.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NZerefDragneel has made the advancement [Stone Age]
+[21Feb2025 06:53:46.281] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun_KT has made the advancement [Pic-A-Nic Basket?]
+[21Feb2025 07:00:20.386] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun_KT has made the advancement [Isn't It Iron Pick]
+[21Feb2025 07:05:28.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[21Feb2025 07:05:28.712] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: s<--[HERE]
