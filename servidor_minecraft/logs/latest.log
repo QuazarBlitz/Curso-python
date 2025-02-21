@@ -505,3 +505,4 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [21Feb2025 06:02:12.674] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NZerefDragneel has made the advancement [Monster Hunter]
 [21Feb2025 06:02:39.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NZerefDragneel was shot by Skeleton
 [21Feb2025 06:03:02.684] [Server thread/INFO] [do_a_barrel_roll/]: Client of NZerefDragneel accepted server config.
+[21Feb2025 06:16:49.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NZerefDragneel has made the advancement [Stone Age]
