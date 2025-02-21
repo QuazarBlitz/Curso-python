@@ -538,9 +538,11 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2025-02-18 05:15:45 +0000",
+      "minecraft:spider": "2025-02-21 07:58:39 +0000",
       "minecraft:creeper": "2025-02-21 06:26:27 +0000",
       "minecraft:witch": "2025-02-21 07:11:53 +0000",
       "minecraft:husk": "2025-02-21 07:28:50 +0000",
+      "minecraft:enderman": "2025-02-21 07:59:17 +0000",
       "minecraft:zombie": "2025-02-18 05:10:15 +0000"
     },
     "done": false
@@ -959,6 +961,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2025-02-21 07:58:39 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/andesite_stairs": {
     "criteria": {
       "has_andesite": "2025-02-21 06:29:09 +0000"
@@ -1004,6 +1012,12 @@
   "minecraft:recipes/building_blocks/pink_stained_glass": {
     "criteria": {
       "has_glass": "2025-02-21 06:39:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2025-02-21 07:58:39 +0000"
     },
     "done": true
   },
@@ -1055,9 +1069,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2025-02-21 07:58:39 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cookie": {
     "criteria": {
       "has_cocoa": "2025-02-21 07:22:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/candle": {
+    "criteria": {
+      "has_string": "2025-02-21 07:58:39 +0000"
     },
     "done": true
   },
@@ -1289,6 +1315,12 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/misc/copper_backpack": {
+    "criteria": {
+      "has_backpack": "2025-02-21 08:04:51 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
     "criteria": {
       "has_mutton": "2025-02-21 06:12:36 +0000"
@@ -1325,6 +1357,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2025-02-21 08:07:53 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/sandstone": {
     "criteria": {
       "has_sand": "2025-02-21 06:33:48 +0000"
@@ -1334,6 +1372,12 @@
   "minecraft:recipes/decorations/jungle_fence": {
     "criteria": {
       "has_planks": "2025-02-21 07:22:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_wool_from_string": {
+    "criteria": {
+      "has_string": "2025-02-21 07:58:39 +0000"
     },
     "done": true
   },
@@ -1427,9 +1471,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/loom": {
+    "criteria": {
+      "has_string": "2025-02-21 07:58:39 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/jungle_slab": {
     "criteria": {
       "has_planks": "2025-02-21 07:22:12 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/iron_backpack": {
+    "criteria": {
+      "has_backpack": "2025-02-21 08:04:51 +0000"
     },
     "done": true
   },
