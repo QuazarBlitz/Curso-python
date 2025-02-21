@@ -510,3 +510,5 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [21Feb2025 07:00:20.386] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun_KT has made the advancement [Isn't It Iron Pick]
 [21Feb2025 07:05:28.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
 [21Feb2025 07:05:28.712] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: s<--[HERE]
+[21Feb2025 07:15:46.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun_KT has made the advancement [Ant-Agonizer]
+[21Feb2025 07:18:01.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun_KT has made the advancement [Ant Farm]

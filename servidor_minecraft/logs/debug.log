@@ -3340,3 +3340,11 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [21Feb2025 07:03:36.226] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [21Feb2025 07:05:28.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
 [21Feb2025 07:05:28.712] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: s<--[HERE]
+[21Feb2025 07:08:36.218] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[21Feb2025 07:08:36.224] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[21Feb2025 07:13:36.223] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[21Feb2025 07:13:36.229] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[21Feb2025 07:15:46.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun_KT has made the advancement [Ant-Agonizer]
+[21Feb2025 07:18:01.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun_KT has made the advancement [Ant Farm]
+[21Feb2025 07:18:36.224] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[21Feb2025 07:18:36.230] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world

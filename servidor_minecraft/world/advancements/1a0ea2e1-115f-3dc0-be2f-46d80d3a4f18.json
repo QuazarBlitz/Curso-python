@@ -5,6 +5,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2025-02-21 07:17:52 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/light_gray_concrete_powder": {
     "criteria": {
       "has_sand": "2025-02-21 06:34:01 +0000"
@@ -604,6 +610,8 @@
       "minecraft:birch_forest": "2025-02-21 06:32:07 +0000",
       "minecraft:windswept_hills": "2025-02-21 06:11:39 +0000",
       "minecraft:dark_forest": "2025-02-21 06:00:08 +0000",
+      "minecraft:sparse_jungle": "2025-02-21 07:10:27 +0000",
+      "minecraft:river": "2025-02-21 07:10:02 +0000",
       "minecraft:swamp": "2025-02-21 05:44:27 +0000",
       "minecraft:forest": "2025-02-21 06:30:16 +0000",
       "minecraft:windswept_forest": "2025-02-21 06:29:25 +0000",
