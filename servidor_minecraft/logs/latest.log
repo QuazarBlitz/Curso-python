@@ -608,3 +608,19 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [21Feb2025 07:42:38.463] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-370, y=36, z=-302}
 [21Feb2025 07:42:38.584] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-298, y=28, z=-334}
 [21Feb2025 07:42:38.585] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-297, y=33, z=-333}
+[21Feb2025 08:11:12.054] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NZerefDragneel lost connection: Disconnected
+[21Feb2025 08:11:12.054] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NZerefDragneel left the game
+[21Feb2025 08:11:22.004] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Okarun_KT lost connection: Disconnected
+[21Feb2025 08:11:22.004] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okarun_KT left the game
+[21Feb2025 08:11:34.053] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[21Feb2025 08:11:34.096] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[21Feb2025 08:11:34.097] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[21Feb2025 08:11:34.097] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[21Feb2025 08:11:34.256] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21Feb2025 08:11:34.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[21Feb2025 08:11:34.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[21Feb2025 08:11:34.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21Feb2025 08:11:34.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21Feb2025 08:11:34.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21Feb2025 08:11:34.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21Feb2025 08:11:34.632] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
